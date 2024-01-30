@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PagesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -12,10 +13,7 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-use App\Http\Controllers\PagesController;
-Route::get('/', 'PagesController@getIndex');
 
-//use App\Http\Controllers\PagesController;
-//Route::get('/',[PagesController::class,'getIndex']);
+Route::get('/',[PagesController::class,'getIndex']);
 
 
