@@ -5,11 +5,8 @@
 @section('content')
 
     <div class="title m-b-md">
-        Laravel
+        Laravel this is the page
     </div>
 @endsection
 
-'''''''''''''''''web
-use App\Http\Controllers\PagesController;
-Route::get('/', 'PagesController@getIndex');
 
